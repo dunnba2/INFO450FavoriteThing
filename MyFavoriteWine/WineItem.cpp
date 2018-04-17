@@ -75,12 +75,12 @@ int WineItem::getWineItem()
 ostream & operator<<(ostream &os, const WineItem &item)
 {
 	os << endl;
-	os << "**** Wine ****" << endl;
-	os << "Name: " << item.wineName << endl;
-	os << "Type: " << item.wineType << endl;
-	os << "Region: " << item.wineRegion << endl;
-	os << "Alcohol Content: " << item.alcoholContent << "%" << endl;
-	os << "Rating: " << item.rating;
+	os << "  **** Wine ****" << endl;
+	os << "  Name: " << item.wineName << endl;
+	os << "  Type: " << item.wineType << endl;
+	os << "  Region: " << item.wineRegion << endl;
+	os << "  Alcohol Content: " << item.alcoholContent << "%" << endl;
+	os << "  Rating: " << item.rating;
 	return os;
 }
 
